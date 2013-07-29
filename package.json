@@ -2,10 +2,7 @@
   "name": "getting-started-with-arduino-book",
   "version": "0.0.0",
   "description": "This are the examples from the book #Getting Started With Arduino# from Massimo Banzi, co-founder of Arduino, but made with Johnny-Five in Javascript",
-  "main": "pag40.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "main": "",
   "keywords": [
     "arduino",
     "johnny-five",
@@ -13,6 +10,13 @@
     "hacking",
     "javascript"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:diasdavid/getting-started-with-arduino-book.git"
+  },
   "author": "David Dias",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "johnny-five": "~0.7.0"
+  }
 }
